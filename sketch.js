@@ -124,13 +124,20 @@ function draw() {
 									fill(255)
 								}								
 								rect(width-width/8.2, height-height/6, width/10, height/10)//Enter Button
+									fill(100)
+									stroke(255)
+									text("enter", width-width/11, height-height/9)
 
+								stroke(210)
 								if (disconnectClicked == 'true'){
 									fill(255, 0, 0)
 								} else {
 									fill(255)
 								}
 								rect(width/3.6, height-height/6, width/10, height/10)//Disconnect Button
+									fill(100)
+									stroke(255)
+									text("disconnect", width/3.4, height-height/9)
 
     fill(110)
     stroke(110)
@@ -271,7 +278,7 @@ if (ball == "theirs") {
 					lines.push(" ")
 					lines.push(" ")
 					lines.push(" ")
-					lines.push(" ")
+					answer = " "
 					textCol = "grey"
 					time = 0
 					angery = 0
