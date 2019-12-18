@@ -264,7 +264,7 @@ if (ball == "theirs") {
 			}
 			if ((words[i] == "ily") || (words[i] == "ur great") || (words[i] == "happy") || (words[i] == "positive") || (words[i] == "nice") || (words[i] == "love") || (words[i] == "cute") || (words[i] == "sweet") || (words[i] == "sweetie") || (words[i] == "sweetheart") || (words[i] == "beautiful")){
 		
-				if (angery >= 10) {
+				if (angery >= 5) {
 					print('Clonked')
 					lines.push("User Disconnected")
 					lines.push(" ")
